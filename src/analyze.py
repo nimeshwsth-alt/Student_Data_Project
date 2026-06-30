@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Load transformed data
 df = pd.read_csv("output/transformed_data.csv")
 
 print("\nSTUDENT PERFORMANCE DASHBOARD")
