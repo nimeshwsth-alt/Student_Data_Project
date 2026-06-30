@@ -1,9 +1,7 @@
 import pandas as pd
 
-# Load transformed data
 df = pd.read_csv("output/transformed_data.csv")
 
-# Generate report
 report = {
     "Total Students": len(df),
     "Average Marks": round(df["Marks"].mean(), 2),
